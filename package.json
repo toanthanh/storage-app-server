@@ -1,0 +1,27 @@
+{
+  "name": "imageCollector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=development && node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cli-engine-command": "^9.0.7",
+    "cli-engine-config": "^3.5.0",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "lodash": "^4.17.5",
+    "mongodb": "^3.0.5",
+    "mongoose": "^5.0.12",
+    "multer": "^1.3.0",
+    "path": "^0.12.7",
+    "validator": "^9.4.1"
+  }
+}
