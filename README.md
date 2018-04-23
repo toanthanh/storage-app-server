@@ -1,4 +1,5 @@
 ## Hostname
+*** ENDPOINT: https://storage-application.herokuapp.com/
 ## API
 ### Handling
 * [Success request](#success)
@@ -22,14 +23,6 @@
   * [PUT /api/posts/:id](#put-posts-id)
   * [DELETE /api/posts/:id](#delete-posts-id)
   * [GET /api/posts/users/:uid](#get-posts-uid)
-* [Fridges](#fridges)
-  * [Get /api/fridges](#get-fridges)
-  * [POST /api/fridges](#upload-fridges)
-  * [GET /api/fridges/me](#get-fridge-me)
-  * [GET /api/fridges/:id](#get-fridges-id)
-  * [PUT /api/fridges/:id](#put-fridges-id)
-  * [DELETE /api/fridges/:id](#delete-fridges-id)
-  * [GET /api/fridges/users/:uid](#get-fridges-uid)
 * [Photos](#photos)
   * [POST /api/photos/upload](#post-photos)
   
@@ -104,7 +97,7 @@ Sample request:
 
 ```json
 {
-  "email": "vu34@fi.com",
+  "email": "toan@gmail.com",
   "password": "123456",
 }
 ```
@@ -114,7 +107,7 @@ Sample response:
 ```json
 {
   "_id": "5ad7a1a2e1c12d2874099a70",
-    "email": "vu34@fi.com",
+    "email": "toan@gmail.com",
     "tokens": 
         {
             "_id": "5ad7a1a2e1c12d2874099a71",
@@ -147,7 +140,7 @@ Sample request:
 
 ```json
 {
-  "email": "vu34@fi.com",
+  "email": "toan@gmail.com",
   "password": "123456",
 }
 ```
@@ -157,7 +150,7 @@ Sample response:
 ```json
 {
   "_id": "5ad7a1a2e1c12d2874099a70",
-    "email": "vu34@fi.com",
+    "email": "toan@gmail.com",
     "tokens": 
         {
             "_id": "5ad7a1a2e1c12d2874099a71",
@@ -337,8 +330,8 @@ Sample response data:
         "_id": "5adcef8c00b3a5293403d2b6",
         "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
-        "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-        "category": "meat",
+        "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
+        "category": "vehicles",
         "uploader": {
             "_id": "5adcecf177010504b0601c3f",
             "email": "test@gmail.com"
@@ -351,8 +344,8 @@ Sample response data:
         "_id": "5adcf365eb37eb177c6f85ca",
         "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
-        "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-        "category": "meat",
+        "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
+        "category": "vehicles",
         "uploader": {
             "_id": "5adcecf177010504b0601c3f",
             "email": "test@gmail.com"
@@ -415,8 +408,8 @@ Sample response data:
         "_id": "5adcef8c00b3a5293403d2b6",
         "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
-        "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-        "category": "meat",
+        "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
+        "category": "vehicles",
         "uploader": {
             "_id": "5adcecf177010504b0601c3f",
             "email": "test@gmail.com"
@@ -477,8 +470,8 @@ Sample response data:
         "_id": "5adcef8c00b3a5293403d2b6",
         "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
-        "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-        "category": "meat",
+        "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
+        "category": "vehicles",
         "uploader": {
             "_id": "5adcecf177010504b0601c3f",
             "email": "test@gmail.com"
@@ -491,8 +484,8 @@ Sample response data:
         "_id": "5adcf365eb37eb177c6f85ca",
         "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
-        "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-        "category": "meat",
+        "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
+        "category": "vehicles",
         "uploader": {
             "_id": "5adcecf177010504b0601c3f",
             "email": "test@gmail.com"
@@ -548,8 +541,8 @@ Sample response data:
         "_id": "5adcef8c00b3a5293403d2b6",
         "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
-        "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-        "category": "meat",
+        "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
+        "category": "vehicles",
         "uploader": {
             "_id": "5adcecf177010504b0601c3f",
             "email": "test@gmail.com"
@@ -562,8 +555,8 @@ Sample response data:
         "_id": "5adcf365eb37eb177c6f85ca",
         "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
-        "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-        "category": "meat",
+        "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
+        "category": "vehicles",
         "uploader": {
             "_id": "5adcecf177010504b0601c3f",
             "email": "test@gmail.com"
@@ -617,8 +610,8 @@ Sample response data:
         "_id": "5adcef8c00b3a5293403d2b6",
         "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
-        "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-        "category": "meat",
+        "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
+        "category": "vehicles",
         "uploader": {
             "_id": "5adcecf177010504b0601c3f",
             "email": "test@gmail.com"
@@ -642,7 +635,7 @@ Request body:
 | key |	type | description |
 | --- | --- | --- |
 | description | string | optional |
-| category | string | Valid values: **vegetables**, **meat**, **drink**| optional |
+| category | string | Valid values: **vehicles**, **furniture**, **machine**| optional |
 | imgPath | string | optional |
 
 Response payload:
@@ -681,8 +674,8 @@ Sample response data:
         "_id": "5adcef8c00b3a5293403d2b6",
         "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
-        "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-        "category": "meat",
+        "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
+        "category": "vehicles",
         "uploader": {
             "_id": "5adcecf177010504b0601c3f",
             "email": "test@gmail.com"
@@ -736,8 +729,8 @@ Sample response data:
         "_id": "5adcef8c00b3a5293403d2b6",
         "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
-        "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-        "category": "meat",
+        "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
+        "category": "vehicles",
         "uploader": {
             "_id": "5adcecf177010504b0601c3f",
             "email": "test@gmail.com"
@@ -789,8 +782,8 @@ Sample response data:
         "_id": "5adcef8c00b3a5293403d2b6",
         "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
-        "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-        "category": "meat",
+        "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
+        "category": "vehicles",
         "uploader": {
             "_id": "5adcecf177010504b0601c3f",
             "email": "test@gmail.com"
@@ -803,457 +796,13 @@ Sample response data:
         "_id": "5adcf365eb37eb177c6f85ca",
         "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
-        "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-        "category": "meat",
+        "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
+        "category": "vehicles",
         "uploader": {
             "_id": "5adcecf177010504b0601c3f",
             "email": "test@gmail.com"
         },
         "__v": 0
-    }
-]
-```
-## <a name="fridges"></a> Fridges
-### <a name="get-fridges"></a> Get /api/fridges
-Get all fridges
-Header payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| x-auth | string | Server Token  |
-
-Response payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string |  |
-| description | string |  |
-| pickUpTime | Date |  |
-| name | string |  |
-| uploader | user |  |
-| posts | posts |  |
-
-**uploader** in detail
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string | |
-| email| string |  |
-
-Sample header:
-```json
-{
-  "x-auth":"HERE IS THE TOKEN"
-}
-```
-
-Sample response data:
-
-```json
-[
-    {
-        "posts": [
-            {
-                "uploadedTime": "2018-04-22T20:49:20.538Z",
-                "status": "available",
-                "_id": "5adcf556410caa28b8875fdf",
-                "fridge": "5adcee1db73b6029fc9d4295",
-                "description": "testing",
-                "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-                "category": "meat",
-                "uploader": "5adcecf177010504b0601c3f",
-                "__v": 0
-            }
-        ],
-        "pickUpTime": "2018-04-22T20:18:33.117Z",
-        "_id": "5adcee1db73b6029fc9d4295",
-        "description": "testing",
-        "name": "fridge test",
-        "__v": 1
-    }
-]
-```
-
-### <a name="upload-fridges"></a> POST /api/fridges
-Upload a new fridge 
-
-Header payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| x-auth | string | Server Token  |
-
-Request body:
-
-| key |	type | description |
-| --- | --- | --- |
-| description | string |  |
-| name | string | |
-| pickUpTime | date | |
-
-Response payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string |  |
-| description | string |  |
-| pickUpTime | Date |  |
-| name | string |  |
-| uploader | user |  |
-| posts | posts |  |
-
-**uploader** in detail
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string | |
-| email| string |  |
-
-Sample header:
-```json
-{
-  "x-auth":"HERE IS THE TOKEN"
-}
-```
-
-Sample response data:
-
-```json
-[
-    {
-        "posts": [
-            {
-                "uploadedTime": "2018-04-22T20:49:20.538Z",
-                "status": "available",
-                "_id": "5adcf556410caa28b8875fdf",
-                "fridge": "5adcee1db73b6029fc9d4295",
-                "description": "testing",
-                "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-                "category": "meat",
-                "uploader": "5adcecf177010504b0601c3f",
-                "__v": 0
-            }
-        ],
-        "pickUpTime": "2018-04-22T20:18:33.117Z",
-        "_id": "5adcee1db73b6029fc9d4295",
-        "description": "testing",
-        "name": "fridge test",
-        "__v": 1
-    }
-]
-```
-
-### <a name="get-fridges-me"></a> GET /api/fridges/me
-Get all my fridges
-
-Header payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| x-auth | string | Server Token  |
-
-Response payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string |  |
-| description | string |  |
-| pickUpTime | Date |  |
-| name | string |  |
-| uploader | user |  |
-| posts | posts |  |
-
-**uploader** in detail
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string | |
-| email| string |  |
-
-Sample header:
-```json
-{
-  "x-auth":"HERE IS THE TOKEN"
-}
-```
-
-Sample response data:
-
-```json
-[
-    {
-        "posts": [
-            {
-                "uploadedTime": "2018-04-22T20:49:20.538Z",
-                "status": "available",
-                "_id": "5adcf556410caa28b8875fdf",
-                "fridge": "5adcee1db73b6029fc9d4295",
-                "description": "testing",
-                "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-                "category": "meat",
-                "uploader": "5adcecf177010504b0601c3f",
-                "__v": 0
-            }
-        ],
-        "pickUpTime": "2018-04-22T20:18:33.117Z",
-        "_id": "5adcee1db73b6029fc9d4295",
-        "description": "testing",
-        "name": "fridge test",
-        "__v": 1
-    }
-]
-```
-
-### <a name="get-fridges-id"></a> GET /api/fridges/:id
-Get one fridge based on id
-Header payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| x-auth | string | Server Token  |
-
-Response payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string |  |
-| description | string |  |
-| pickUpTime | Date |  |
-| name | string |  |
-| uploader | user |  |
-| posts | posts |  |
-
-**uploader** in detail
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string | |
-| email| string |  |
-
-Sample header:
-```json
-{
-  "x-auth":"HERE IS THE TOKEN"
-}
-```
-
-Sample response data:
-
-```json
-[
-    {
-        "posts": [
-            {
-                "uploadedTime": "2018-04-22T20:49:20.538Z",
-                "status": "available",
-                "_id": "5adcf556410caa28b8875fdf",
-                "fridge": "5adcee1db73b6029fc9d4295",
-                "description": "testing",
-                "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-                "category": "meat",
-                "uploader": "5adcecf177010504b0601c3f",
-                "__v": 0
-            }
-        ],
-        "pickUpTime": "2018-04-22T20:18:33.117Z",
-        "_id": "5adcee1db73b6029fc9d4295",
-        "description": "testing",
-        "name": "fridge test",
-        "__v": 1
-    }
-]
-```
-
-### <a name="put-fridges-id"></a> PUT /api/fridges/:id
-Edit post based on id
-
-Header payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| x-auth | string | Server Token  |
-
-Request body:
-
-| key |	type | description |
-| --- | --- | --- |
-| description | string | optional |
-| name | string | optional |
-| pickUpTime | date | optional |
-
-Response payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string |  |
-| description | string |  |
-| pickUpTime | Date |  |
-| name | string |  |
-| uploader | user |  |
-| posts | posts |  |
-
-**uploader** in detail
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string | |
-| email| string |  |
-
-Sample header:
-```json
-{
-  "x-auth":"HERE IS THE TOKEN"
-}
-```
-
-Sample response data:
-
-```json
-[
-    {
-        "posts": [
-            {
-                "uploadedTime": "2018-04-22T20:49:20.538Z",
-                "status": "available",
-                "_id": "5adcf556410caa28b8875fdf",
-                "fridge": "5adcee1db73b6029fc9d4295",
-                "description": "testing",
-                "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-                "category": "meat",
-                "uploader": "5adcecf177010504b0601c3f",
-                "__v": 0
-            }
-        ],
-        "pickUpTime": "2018-04-22T20:18:33.117Z",
-        "_id": "5adcee1db73b6029fc9d4295",
-        "description": "testing",
-        "name": "fridge test",
-        "__v": 1
-    }
-]
-```
-
-### <a name="delete-fridges-id"></a> DELETE /api/fridges/:id
-Delete post based on id
-
-Header payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| x-auth | string | Server Token  |
-
-Response payload:
-
-Response payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string |  |
-| description | string |  |
-| pickUpTime | Date |  |
-| name | string |  |
-| uploader | user |  |
-| posts | posts |  |
-
-**uploader** in detail
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string | |
-| email| string |  |
-
-Sample header:
-```json
-{
-  "x-auth":"HERE IS THE TOKEN"
-}
-```
-
-Sample response data:
-
-```json
-[
-    {
-        "posts": [
-            {
-                "uploadedTime": "2018-04-22T20:49:20.538Z",
-                "status": "available",
-                "_id": "5adcf556410caa28b8875fdf",
-                "fridge": "5adcee1db73b6029fc9d4295",
-                "description": "testing",
-                "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-                "category": "meat",
-                "uploader": "5adcecf177010504b0601c3f",
-                "__v": 0
-            }
-        ],
-        "pickUpTime": "2018-04-22T20:18:33.117Z",
-        "_id": "5adcee1db73b6029fc9d4295",
-        "description": "testing",
-        "name": "fridge test",
-        "__v": 1
-    }
-]
-```
-
-### <a name="get-fridges-uid"></a> GET /api/fridges/users/:uid
-Get posts of 1 users
-Header payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| x-auth | string | Server Token  |
-
-Response payload:
-
-Response payload:
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string |  |
-| description | string |  |
-| pickUpTime | Date |  |
-| name | string |  |
-| uploader | user |  |
-| posts | posts |  |
-
-**uploader** in detail
-
-| key |	type | description |
-| --- | --- | --- |
-| _id | string | |
-| email| string |  |
-
-Sample header:
-```json
-{
-  "x-auth":"HERE IS THE TOKEN"
-}
-```
-
-Sample response data:
-
-```json
-[
-    {
-        "posts": [
-            {
-                "uploadedTime": "2018-04-22T20:49:20.538Z",
-                "status": "available",
-                "_id": "5adcf556410caa28b8875fdf",
-                "fridge": "5adcee1db73b6029fc9d4295",
-                "description": "testing",
-                "imgPath": "https://food-recycling.herokuapp.com/photos/photo-1524428518337.jpg",
-                "category": "meat",
-                "uploader": "5adcecf177010504b0601c3f",
-                "__v": 0
-            }
-        ],
-        "pickUpTime": "2018-04-22T20:18:33.117Z",
-        "_id": "5adcee1db73b6029fc9d4295",
-        "description": "testing",
-        "name": "fridge test",
-        "__v": 1
     }
 ]
 ```
