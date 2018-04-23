@@ -1,0 +1,15 @@
+{
+  "production": {
+    "JWT_SECRET": "ImageCollector"
+  },
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/StorageAppNew",
+    "JWT_SECRET": "Toandepzai"
+  },
+  "test": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/StorageAppTest",
+    "JWT_SECRET": "Toandepzai"
+  }
+}
