@@ -1,5 +1,4 @@
 ## Hostname
-**Endpoint:** https://food-recycling.herokuapp.com
 ## API
 ### Handling
 * [Success request](#success)
