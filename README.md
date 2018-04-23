@@ -303,7 +303,6 @@ Response payload:
 | imgPath | string |  |
 | category | string |  |
 | uploader | user |  |
-| fridge | fridge |  |
 | uploadedTime | Date |  |
 
 **uploader** in detail
@@ -328,7 +327,6 @@ Sample response data:
         "uploadedTime": "2018-04-22T20:21:20.918Z",
         "status": "available",
         "_id": "5adcef8c00b3a5293403d2b6",
-        "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
         "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
         "category": "vehicles",
@@ -342,7 +340,6 @@ Sample response data:
         "uploadedTime": "2018-04-22T20:40:42.674Z",
         "status": "available",
         "_id": "5adcf365eb37eb177c6f85ca",
-        "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
         "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
         "category": "vehicles",
@@ -381,7 +378,6 @@ Response payload:
 | imgPath | string |  |
 | category | string |  |
 | uploader | user |  |
-| fridge | fridge |  |
 | uploadedTime | Date |  |
 
 **uploader** in detail
@@ -406,7 +402,6 @@ Sample response data:
         "uploadedTime": "2018-04-22T20:21:20.918Z",
         "status": "available",
         "_id": "5adcef8c00b3a5293403d2b6",
-        "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
         "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
         "category": "vehicles",
@@ -432,7 +427,7 @@ Request params:
 
 | key |	type | description |
 | --- | --- | --- |
-| category | string | Valid values: **vegetables**, **meat**, **drink**|
+| category | string | Valid values: **vehicles**, **furniture**, **machine**|
 
 Response payload:
 
@@ -443,7 +438,6 @@ Response payload:
 | imgPath | string |  |
 | category | string |  |
 | uploader | user |  |
-| fridge | fridge |  |
 | uploadedTime | Date |  |
 
 **uploader** in detail
@@ -468,7 +462,6 @@ Sample response data:
         "uploadedTime": "2018-04-22T20:21:20.918Z",
         "status": "available",
         "_id": "5adcef8c00b3a5293403d2b6",
-        "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
         "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
         "category": "vehicles",
@@ -482,7 +475,6 @@ Sample response data:
         "uploadedTime": "2018-04-22T20:40:42.674Z",
         "status": "available",
         "_id": "5adcf365eb37eb177c6f85ca",
-        "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
         "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
         "category": "vehicles",
@@ -514,7 +506,6 @@ Response payload:
 | imgPath | string |  |
 | category | string |  |
 | uploader | user |  |
-| fridge | fridge |  |
 | uploadedTime | Date |  |
 
 **uploader** in detail
@@ -539,7 +530,6 @@ Sample response data:
         "uploadedTime": "2018-04-22T20:21:20.918Z",
         "status": "available",
         "_id": "5adcef8c00b3a5293403d2b6",
-        "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
         "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
         "category": "vehicles",
@@ -553,7 +543,6 @@ Sample response data:
         "uploadedTime": "2018-04-22T20:40:42.674Z",
         "status": "available",
         "_id": "5adcf365eb37eb177c6f85ca",
-        "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
         "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
         "category": "vehicles",
@@ -583,7 +572,6 @@ Response payload:
 | imgPath | string |  |
 | category | string |  |
 | uploader | user |  |
-| fridge | fridge |  |
 | uploadedTime | Date |  |
 
 **uploader** in detail
@@ -608,7 +596,6 @@ Sample response data:
         "uploadedTime": "2018-04-22T20:21:20.918Z",
         "status": "available",
         "_id": "5adcef8c00b3a5293403d2b6",
-        "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
         "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
         "category": "vehicles",
@@ -647,7 +634,6 @@ Response payload:
 | imgPath | string |  |
 | category | string |  |
 | uploader | user |  |
-| fridge | fridge |  |
 | uploadedTime | Date |  |
 
 **uploader** in detail
@@ -672,7 +658,6 @@ Sample response data:
         "uploadedTime": "2018-04-22T20:21:20.918Z",
         "status": "available",
         "_id": "5adcef8c00b3a5293403d2b6",
-        "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
         "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
         "category": "vehicles",
@@ -703,7 +688,6 @@ Response payload:
 | imgPath | string |  |
 | category | string |  |
 | uploader | user |  |
-| fridge | fridge |  |
 | uploadedTime | Date |  |
 
 **uploader** in detail
@@ -727,7 +711,6 @@ Sample response data:
         "uploadedTime": "2018-04-22T20:21:20.918Z",
         "status": "available",
         "_id": "5adcef8c00b3a5293403d2b6",
-        "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
         "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
         "category": "vehicles",
@@ -755,7 +738,6 @@ Response payload:
 | imgPath | string |  |
 | category | string |  |
 | uploader | user |  |
-| fridge | fridge |  |
 | uploadedTime | Date |  |
 
 **uploader** in detail
@@ -780,7 +762,6 @@ Sample response data:
         "uploadedTime": "2018-04-22T20:21:20.918Z",
         "status": "available",
         "_id": "5adcef8c00b3a5293403d2b6",
-        "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
         "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
         "category": "vehicles",
@@ -794,7 +775,6 @@ Sample response data:
         "uploadedTime": "2018-04-22T20:40:42.674Z",
         "status": "available",
         "_id": "5adcf365eb37eb177c6f85ca",
-        "fridge": "5adcee1db73b6029fc9d4295",
         "description": "testing",
         "imgPath": "https://storage-application.herokuapp.com/photos/photo-1524428518337.jpg",
         "category": "vehicles",
