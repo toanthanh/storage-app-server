@@ -6,7 +6,7 @@
 * [Error request](#error)
 ### Official
 * [Authen](#auth)
-  * [POST/auth/signin](#signin)
+  * [POST/api/auth/login](#login)
 * [Users](#users)
   * [POST /api/users](#post-users)
   * [GET /api/users](#get-users)
@@ -75,7 +75,7 @@ Http status code should be checked for at least following error conditions:
 ```
 
 ## <a name="auth"></a>Authentication
-### <a name="signin"></a>POST/auth/login
+### <a name="signin"></a>POST/api/auth/login
 Sign in user
 
 Request body:
